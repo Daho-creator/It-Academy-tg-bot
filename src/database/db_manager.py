@@ -5,8 +5,8 @@
 import psycopg2
 from psycopg2.extras import RealDictCursor
 from typing import List, Optional
-from src.config import Config
-from src.database.models import User, Task
+from config import Config
+from database.models import User, Task
 
 
 class DatabaseManager:
